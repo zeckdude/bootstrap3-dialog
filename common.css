@@ -1,0 +1,25 @@
+body {
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#menu ul {
+  list-style-type: none;
+  display: flex;
+  margin: 20px 0;
+}
+
+#menu ul li {
+  margin-right: 20px;
+  background-color: #0047b3;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#menu ul li:hover {
+  background-color: #4d94ff;
+}
